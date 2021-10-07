@@ -1,0 +1,5 @@
+<div *ngFor="let usuario of listado">
+    <span>Id : {{usuario.id}}</span>
+    <span>Nombre : {{usuario.nombre}} - Perfil : {{usuario.perfil}}</span>
+    <button (click)="mostrarDetalle(usuario)">Detalle</button>
+</div>
